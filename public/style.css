@@ -1,0 +1,84 @@
+/* Reset basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #a8e6ec;
+    /* background-image: url(Gradient.png); */
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Container styling */
+.container {
+    max-width: 480px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels and Inputs */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="url"],
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styles */
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(30, 164, 216);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    max-width: 100px;
+    align-self: center; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* List styling */
+ul#shortened-urls {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul#shortened-urls li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    word-break: break-word;
+}
